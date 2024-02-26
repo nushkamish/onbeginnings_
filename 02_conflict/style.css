@@ -1,0 +1,300 @@
+body {
+    background-color: #BBD0EF;
+    font-family: "anth", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #384A84;
+    margin: auto;
+    cursor: url('../02_conflict/imgs/blue.png'), auto;
+
+   
+}
+
+.container {
+    position: relative;
+    text-align: center; 
+    margin-top: 20px;
+}
+
+
+
+.title {
+    text-align: center;
+    margin-top: 20px;
+    
+}
+
+.beginning {
+
+    font-family: "anth", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    color: #384A84;
+    padding:40px;
+
+}
+
+.welcome {
+
+    font-family: "anth", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    color: #12245f;
+    font-size: 28px;
+    justify-content: center;
+    max-width: 50%;
+    margin: auto;
+    margin-top: 50px;
+    opacity: 0; 
+    animation: fadeIn 3s forwards; 
+    animation-delay: 3s; 
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+
+}
+
+ /*para 1 css*/
+
+
+.para1 {
+    margin-top: 90px;
+    margin-left:50px;
+    margin-right: 50px;
+    opacity: 0;
+    animation: fadeIn 5s forwards; 
+    animation-delay: 9s;
+    justify-content: center;
+}
+
+@keyframes fadeIn  {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+
+
+.hidden {
+    opacity: 0;
+    transition: opacity 0.5s ease;
+    
+}
+
+.para1 p {
+    margin: 20px;
+    font-size: 18px;
+}
+
+.para1 span:hover {
+    opacity: 1;
+    transition: 0.3s ease-in;
+ }
+
+ 
+
+
+@keyframes fadeIn  {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+
+
+.hidden {
+    opacity: 0;
+    transition: opacity 0.5s ease;
+    
+}
+
+.para1 p {
+    margin: 20px;
+    font-size: 20px;
+}
+
+.para1 span:hover {
+    opacity: 1;
+    transition: 0.3s ease-in;
+ }
+
+
+ .para1 span.hidden:hover {
+    opacity: 1;
+    transition: opacity 1s; 
+}
+
+
+.para1 span.hidden {
+    transition: opacity 3s; 
+}
+ 
+
+ /*para 2 css*/
+
+
+ .para2 {
+    margin-top: 140px;
+    margin-left:50px;
+    margin-right: 50px;
+    opacity: 0;
+    animation: fadeIn 5s forwards; 
+    animation-delay: 9s;
+    justify-content: center;
+}
+
+@keyframes fadeIn  {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+
+
+.hidden {
+    opacity: 0;
+    transition: opacity 0.5s ease;
+    
+}
+
+.para2 p {
+    margin: 20px;
+    font-size: 18px;
+}
+
+.para2 span:hover {
+    opacity: 1;
+    transition: 0.3s ease-in;
+ }
+
+ 
+
+@keyframes fadeIn  {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+
+
+.hidden {
+    opacity: 0;
+    transition: opacity 0.5s ease;
+    
+}
+
+.para2 p {
+    margin: 20px;
+    font-size: 20px;
+}
+
+.para2 span:hover {
+    opacity: 1;
+    transition: 0.3s ease-in;
+ }
+
+
+ .para2 span.hidden:hover {
+    opacity: 1;
+    transition: opacity 1s; 
+}
+
+
+.para2 span.hidden {
+    transition: opacity 3s; 
+}
+
+  /*para 3 css*/
+
+
+
+  .para3 {
+    margin-top: 210px;
+    margin-left:50px;
+    margin-right: 50px;
+    opacity: 0;
+    animation: fadeIn 5s forwards; 
+    animation-delay: 9s;
+    justify-content: center;
+}
+
+@keyframes fadeIn  {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+
+
+.hidden {
+    opacity: 0;
+    transition: opacity 0.5s ease;
+    
+}
+
+.para3 p {
+    margin: 20px;
+    font-size: 18px;
+}
+
+.para3 span:hover {
+    opacity: 1;
+    transition: 0.3s ease-in;
+ }
+
+ 
+
+@keyframes fadeIn  {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+
+
+.hidden {
+    opacity: 0;
+    transition: opacity 0.5s ease;
+    
+}
+
+.para3 p {
+    margin: 20px;
+    font-size: 20px;
+}
+
+.para3 span:hover {
+    opacity: 1;
+    transition: 0.3s ease-in;
+ }
+
+ .para3 span.hidden:hover {
+    opacity: 1;
+    transition: opacity 1s; 
+}
+
+
+.para3 span.hidden {
+    transition: opacity 3s; 
+}
+
+.end {
+
+
+        font-family: "anth", sans-serif;
+        font-weight: 400;
+        font-style: italic;
+        color: #384A84;
+        margin-top: 225px;
+        margin-bottom: 20px; 
+    
+
+}
+
+.beginning, .end {
+    opacity: 0;
+    animation: fadeIn 3s forwards;
+    animation-delay: 6s; 
+    
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}

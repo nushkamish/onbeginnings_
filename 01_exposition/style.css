@@ -1,0 +1,162 @@
+body {
+    background-color:#BBD0EF;
+    cursor: url('/Users/anoushka/Documents/GitHub/on-beginnings/02_conflict/imgs/blue.png'), auto;
+}
+
+
+.hello {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 18vh;
+    font-size:24vw;
+  }
+
+
+  .container {
+    position: relative;
+
+  }
+  
+  
+  .word {
+    font-size: 28px;
+    margin: 0 18px;
+    opacity: 0;
+    animation: fade-in 1s ease-in-out forwards;
+    font-family: "anth", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #384A84;
+  }
+  
+  .word:nth-child(1) {
+    animation-delay: 2s;
+  }
+  
+  .word:nth-child(2) {
+    animation-delay: 4s;
+  }
+  
+  .word:nth-child(3) {
+    animation-delay: 6s;
+  }
+
+  @keyframes fade-in {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+
+  /*typing animation*/
+
+  @keyframes typing {
+    from { width: 100% }
+    to { width: 0 }
+    
+}
+
+@keyframes sections{
+  0%{
+      opacity: 100%;
+  }
+
+  90%{
+      opacity:99%
+  }
+
+  100%{
+      opacity: 0%;
+  }
+}
+
+
+body{
+  max-height:100vh;
+  font-family: "anth", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #384A84;
+}
+.section {
+
+  position: relative;
+  display:flex;
+  justify-content: center;
+  align-items:center;
+  margin-top:37vh;
+  animation: sections 18s linear;
+  opacity: 0%;
+  opacity: 0;
+    animation: fade-in 10s ease-in-out forwards;
+}
+
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.typing {
+  position: absolute;
+  top: 0;
+  margin: 0;
+  z-index: -1;
+  text-align:center;
+}
+
+.hiders {
+  margin: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+
+.hiders p {
+  position: relative; 
+  clear: both; 
+  margin: 0;
+  float: right; 
+  width:0;
+  background: white; 
+  animation: typing 4s steps(70, end);
+  animation-fill-mode: both; 
+}
+  
+.hiders p:nth-child(2) {
+  animation-delay: 2s;
+}
+
+.hiders p:nth-child(3) {
+  animation-delay: 2s;
+}
+
+.hiders p:nth-child(4) {
+  animation-delay: 4s;
+}
+
+.hiders p:nth-child(5) {
+  animation-delay: 6s;
+}
+
+.hiders p:nth-child(6) {
+  animation-delay: 8s;
+}
+
+.hiders p:nth-child(7) {
+  animation-delay: 10s;
+}
+
+.hiders p:nth-child(8) {
+  animation-delay: 12s;
+}
+
