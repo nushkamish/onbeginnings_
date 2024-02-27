@@ -14,6 +14,38 @@ body {
     
 }
 
+.nav-container {
+  position: relative; /* Required for absolute positioning */
+  text-align: center; /* Center-align the title */
+  animation: fade-in 4s ease forwards;
+}
+
+.nav-button {
+  text-decoration: none; /* Remove text decoration */
+  color: #384A84;
+  font-size: 14px;
+  position: absolute; /* Position absolutely */
+  top: -45px; /* Align with the top of the container */
+}
+
+.nav-button.prev {
+  left: 20px; /* Align to the left of the container */
+}
+
+.nav-button.next {
+  right: 20px /* Align to the right of the container */
+}
+
+@keyframes fade-in {
+  from {
+      opacity: 0; /* Start with opacity 0 */
+  }
+  to {
+      opacity: 1; /* Fade in to opacity 1 */
+  }
+}
+
+
 /* line1 */
 
 .line1 {
