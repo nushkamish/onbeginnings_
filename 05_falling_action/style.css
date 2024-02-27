@@ -1,0 +1,179 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 1600px; /* Adjust height as needed */
+    font-family: "anth", sans-serif;
+   font-weight: 400;
+   font-style: normal;
+   background-color: #384A84;
+   transition: background-color 1s ease, color 0.5s ease; 
+   color: #BBD0EF; 
+  }
+  
+  .content {
+    height: 100%; /* Ensure the content div fills the viewport height */
+    opacity: 0; 
+    animation: appear 1s ease-in-out 6s forwards; 
+}
+  
+  
+  /* Change background color */
+  .bg-color-1 {
+    background-color: #384A84;
+    color: #BBD0EF;
+  }
+  
+  .bg-color-2 {
+    background-color: #BBD0EF;
+    color: #384A84;
+
+    
+  }
+
+  
+
+@keyframes appear {
+    to {
+        opacity: 1; 
+    }
+}
+
+.title {
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+    
+}
+
+.para1 {
+font-size: 18px;
+max-width: 50%;
+margin: auto;
+justify-content: center;
+text-align: center;
+
+}
+
+.hello {
+    font-size: 26px;
+    max-width: 50%;
+margin: auto;
+font-family: "anth", sans-serif;
+font-weight: 700;
+font-style: italic;
+
+}
+
+.para2 {
+    font-size: 18px;
+max-width: 50%;
+margin: auto;
+justify-content: center;
+text-align: center;
+}
+
+.e1 {
+    font-family: "anth", sans-serif;
+   font-weight: 400;
+   font-style: italic;
+   color: aliceblue;
+}
+
+.para3 {
+    font-size: 18px;
+max-width: 50%;
+margin: auto;
+justify-content: center;
+text-align: center;
+}
+
+.para4 {
+    font-size: 26px;
+    max-width: 50%;
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+    
+    }
+
+.e2 {
+    font-size: 26px;
+    max-width: 50%;
+margin: auto;
+font-family: "anth", sans-serif;
+font-weight: 700;
+font-style: italic;
+color: aliceblue;
+}
+
+.e3 {
+    font-size: 26px;
+    max-width: 50%;
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+    opacity: 0; /* Initially hide e3 */
+    transition: opacity 0.5s ease;
+    color: aliceblue;
+ 
+}
+
+.para5 {
+    font-size: 18px;
+max-width: 50%;
+margin: auto;
+justify-content: center;
+text-align: center;
+}
+
+
+.para6 {
+    font-size: 18px;
+max-width: 50%;
+margin: auto;
+justify-content: center;
+text-align: center;
+}
+
+.para7 {
+    font-size: 18px;
+max-width: 50%;
+margin: auto;
+justify-content: center;
+text-align: center;
+}
+
+.e7 {
+    font-family: "anth", sans-serif;
+   font-weight: 400;
+   font-style: italic;
+   color: #171e34
+}
+
+.e8 {
+    font-family: "anth", sans-serif;
+   font-weight: 400;
+   font-style: italic;
+   color: #171e34
+}
+
+.goodbye {
+    font-size: 15px;
+max-width: 50%;
+margin: auto;
+justify-content: center;
+text-align: center;
+font-family: "anth", sans-serif;
+font-weight: 400;
+font-style: italic;
+}
+
+
+
+
+
+
+
+
+
+  

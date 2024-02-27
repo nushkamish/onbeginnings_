@@ -14,35 +14,77 @@ document.addEventListener('DOMContentLoaded', function() {
 
     type();
 
-    // Add blinking animation to the title after 5 seconds
+    // Add blinking animation after 5 seconds
     setTimeout(function() {
-        title.classList.add('blink');
-    }, 5000); // 5000 milliseconds = 5 seconds
-
-    // Select all elements with the class 'fade-in'
-    const elements = document.querySelectorAll('.fade-in');
-
-    function isInViewport(element) {
-        const rect = element.getBoundingClientRect();
-        return (
-            rect.top >= 0 &&
-            rect.left >= 0 &&
-            rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
-            rect.right <= (window.innerWidth || document.documentElement.clientWidth)
-        );
-    }
-
-    function handleScroll() {
-        elements.forEach(element => {
-            if (isInViewport(element)) {
-                element.classList.add('visible');
-            }
-        });
-    }
-
-    // Initial check when the page loads
-    handleScroll();
-
-    // Check again when the user scrolls
-    window.addEventListener('scroll', handleScroll);
+        goodbye.classList.add('blink');
+    }, 5000); // 5000 milliseconds = 3 seconds
 });
+
+document.addEventListener('DOMContentLoaded', function() {
+    const opening = document.querySelector('.opening');
+    const para1 = document.querySelector('.para1');
+
+    opening.addEventListener('mouseover', function() {
+        para1.style.opacity = '1';
+    });
+
+    opening.addEventListener('mouseout', function() {
+        para1.style.opacity = '0';
+    });
+});
+
+document.addEventListener('DOMContentLoaded', function() {
+    const para2 = document.querySelector('.para2');
+    const para3 = document.querySelector('.para3');
+
+    para2.addEventListener('mouseover', function() {
+        para3.style.opacity = '1';
+    });
+
+    para2.addEventListener('mouseout', function() {
+        para3.style.opacity = '0';
+    });
+});
+
+document.addEventListener('DOMContentLoaded', function() {
+    const para4 = document.querySelector('.para4');
+    const para5 = document.querySelector('.para5');
+
+    para4.addEventListener('mouseover', function() {
+        para5.style.opacity = '1';
+    });
+
+    para4.addEventListener('mouseout', function() {
+        para5.style.opacity = '0';
+    });
+});
+
+
+document.addEventListener('DOMContentLoaded', function() {
+    const para6 = document.querySelector('.para6');
+    const para7 = document.querySelector('.para7');
+
+    para6.addEventListener('mouseover', function() {
+        para7.style.opacity = '1';
+    });
+
+    para6.addEventListener('mouseout', function() {
+        para7.style.opacity = '0';
+    });
+});
+
+document.addEventListener('DOMContentLoaded', function() {
+    const question = document.querySelector('.question');
+    const answer = document.querySelector('.answer');
+
+    question.addEventListener('mouseover', function() {
+        answer.style.opacity = '1';
+    });
+
+    question.addEventListener('mouseout', function() {
+        answer.style.opacity = '0';
+    });
+});
+
+
+

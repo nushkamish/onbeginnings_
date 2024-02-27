@@ -1,6 +1,19 @@
 body {
     background-color:#BBD0EF;
     cursor: url('/Users/anoushka/Documents/GitHub/on-beginnings/02_conflict/imgs/blue.png'), auto;
+    font-family: "anth", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #384A84;
+    margin: 0;
+}
+
+
+.title {
+
+  text-align: center;
+  margin-top: 50px;
+  
 }
 
 
@@ -20,26 +33,27 @@ body {
   
   
   .word {
-    font-size: 28px;
+    font-size: 24px;
     margin: 0 18px;
     opacity: 0;
     animation: fade-in 1s ease-in-out forwards;
     font-family: "anth", sans-serif;
-    font-weight: 400;
-    font-style: normal;
+    font-weight: 700;
+    font-style: italic;
     color: #384A84;
+    margin-top: -60px;
   }
   
   .word:nth-child(1) {
-    animation-delay: 2s;
-  }
-  
-  .word:nth-child(2) {
     animation-delay: 4s;
   }
   
-  .word:nth-child(3) {
+  .word:nth-child(2) {
     animation-delay: 6s;
+  }
+  
+  .word:nth-child(3) {
+    animation-delay: 8s;
   }
 
   @keyframes fade-in {
@@ -51,112 +65,68 @@ body {
     }
   }
 
-
-  /*typing animation*/
-
-  @keyframes typing {
-    from { width: 100% }
-    to { width: 0 }
-    
-}
-
-@keyframes sections{
-  0%{
-      opacity: 100%;
+  .typing {
+   
+    max-width: 30%;
+    margin:auto;
+    text-align: center;
+    justify-content: center;
+    font-size: 20px;
   }
 
-  90%{
-      opacity:99%
+  .section {
+    font-size: 22px;
   }
 
-  100%{
-      opacity: 0%;
+  .para1 {
+    font-size: 18px;
+    max-width: 40%;
+    margin:auto;
+    text-align: center;
+    justify-content: center;
   }
-}
-
-
-body{
-  max-height:100vh;
+.e {
   font-family: "anth", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  color: #384A84;
+    font-weight: 700;
+    font-style: normal;
 }
-.section {
+  .e1 {
+    font-family: "anth", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    opacity: 0; 
+    transition: opacity 0.5s ease;
+  }
 
-  position: relative;
-  display:flex;
-  justify-content: center;
-  align-items:center;
-  margin-top:37vh;
-  animation: sections 18s linear;
-  opacity: 0%;
-  opacity: 0;
-    animation: fade-in 10s ease-in-out forwards;
-}
+  
+
+  .para2 {
+    font-size: 18px;
+    max-width: 40%;
+    margin:auto;
+    text-align: center;
+    justify-content: center;
+  }
 
 
-@keyframes fade-in {
+
+
+
+@keyframes fade-in-content {
   from {
-    opacity: 0;
+      opacity: 0;
   }
   to {
-    opacity: 1;
+      opacity: 1;
   }
 }
 
-.typing {
-  position: absolute;
-  top: 0;
-  margin: 0;
-  z-index: -1;
-  text-align:center;
-}
-
-.hiders {
-  margin: 0;
-  position: absolute;
-  top: 0;
-  width: 100%;
+.content {
+  opacity: 0; /* Initially hide content */
+  animation: fade-in-content 1s ease forwards;
+  animation-delay: 25s; /* Delay the animation for 25 seconds */
 }
 
 
-.hiders p {
-  position: relative; 
-  clear: both; 
-  margin: 0;
-  float: right; 
-  width:0;
-  background: white; 
-  animation: typing 4s steps(70, end);
-  animation-fill-mode: both; 
-}
+
   
-.hiders p:nth-child(2) {
-  animation-delay: 2s;
-}
-
-.hiders p:nth-child(3) {
-  animation-delay: 2s;
-}
-
-.hiders p:nth-child(4) {
-  animation-delay: 4s;
-}
-
-.hiders p:nth-child(5) {
-  animation-delay: 6s;
-}
-
-.hiders p:nth-child(6) {
-  animation-delay: 8s;
-}
-
-.hiders p:nth-child(7) {
-  animation-delay: 10s;
-}
-
-.hiders p:nth-child(8) {
-  animation-delay: 12s;
-}
-

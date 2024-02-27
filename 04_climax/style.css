@@ -12,6 +12,19 @@ body{
     
 }
 
+.container {
+    opacity: 0; 
+    animation: appear 1s ease-in-out 3s forwards; 
+}
+
+@keyframes appear {
+    to {
+        opacity: 1; 
+    }
+}
+
+
+
 
 
   .opening 
@@ -25,14 +38,6 @@ body{
    font-style: italic;
   }
 
-  .fade-in {
-    opacity: 0;
-    transition: opacity 0.5s ease;
-}
-
-.fade-in.visible {
-    opacity: 1;
-}
 
 
   .para1 {
@@ -41,19 +46,13 @@ body{
     margin: auto;
     text-align: center;
     font-size: 18px;
+    opacity: 0; 
+    transition: opacity 0.5s ease;
   }
 
-  .fade-in {
-    opacity: 0;
-    transition: opacity 0.5s ease;
-}
-
-.fade-in.visible {
-    opacity: 1;
-}
 
 
-  .para2 {
+ .para2 {
 
     max-width: 50%;
     margin: auto;
@@ -64,32 +63,21 @@ body{
     font-style: italic;
   }
 
-  .fade-in {
-    opacity: 0;
-    transition: opacity 0.5s ease;
-}
-
-.fade-in.visible {
-    opacity: 1;
-}
-
-
   .para3 {
 
     max-width: 40%;
     margin: auto;
     text-align: center;
     font-size: 18px;
+    opacity: 0; 
+    transition: opacity 0.5s ease;
+    
   }
 
-  .fade-in {
-    opacity: 0;
-    transition: opacity 0.5s ease;
-}
+  
 
-.fade-in.visible {
-    opacity: 1;
-}
+  
+
 
 
 
@@ -121,6 +109,9 @@ body{
     color: aliceblue;
   }
 
+
+
+
   .para4 {
     max-width: 50%;
     margin: auto;
@@ -131,14 +122,6 @@ body{
     font-style: italic;
   }
 
-  .fade-in {
-    opacity: 0;
-    transition: opacity 0.5s ease;
-}
-
-.fade-in.visible {
-    opacity: 1;
-}
 
 
   .para5 {
@@ -147,16 +130,9 @@ body{
     margin: auto;
     text-align: center;
     font-size: 18px;
-  }
-
-  .fade-in {
-    opacity: 0;
+    opacity: 0; 
     transition: opacity 0.5s ease;
-}
-
-.fade-in.visible {
-    opacity: 1;
-}
+  }
 
 
   .e5 {
@@ -176,30 +152,17 @@ body{
     font-style: italic;
   }
 
-  .fade-in {
-    opacity: 0;
-    transition: opacity 0.5s ease;
-}
-
-.fade-in.visible {
-    opacity: 1;
-}
 
   .para7 {
     max-width: 40%;
     margin: auto;
     text-align: center;
     font-size: 18px;
+    opacity: 0; 
+    transition: opacity 0.5s ease;
   }
 
-  .fade-in {
-    opacity: 0;
-    transition: opacity 0.5s ease;
-}
-
-.fade-in.visible {
-    opacity: 1;
-}
+ 
 
   .e6 {
     font-family: "anth", sans-serif;
@@ -222,30 +185,35 @@ body{
     font-size: 18px;
   }
 
-  .fade-in {
-    opacity: 0;
-    transition: opacity 0.5s ease;
-}
-
-.fade-in.visible {
-    opacity: 1;
-}
+ 
 
   .question {
-    max-width: 40%;
-    margin: auto;
-    text-align: center;
-    font-size: 18px;
+
+   
+    font-size: 28px;
+    font-family: "anth", sans-serif;
+   font-weight: 600;
+   font-style: italic;
+    
   }
   
-  .fade-in {
-    opacity: 0;
-    transition: opacity 0.5s ease;
-}
+ 
 
-.fade-in.visible {
-    opacity: 1;
-}
+.answer {
+
+ 
+ 
+    font-size: 28px;
+    font-family: "anth", sans-serif;
+   font-weight: 600;
+   font-style: italic;
+   opacity: 0; 
+    transition: opacity 0.5s ease;
+   
+  }
+
+
+ 
 
 
   .goodbye {
@@ -259,15 +227,7 @@ body{
     margin-bottom: 200px;
   }
 
-  .fade-in {
-    opacity: 0;
-    transition: opacity 0.5s ease;
-}
-
-.fade-in.visible {
-    opacity: 1;
-}
-
+ 
 
   @keyframes blink {
     0%, 50% {
